@@ -13,6 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "baseHref": "/demo-employee/",
             "outputPath": "dist/demo-employee",
             "index": "src/index.html",
             "main": "src/main.ts",
@@ -94,5 +95,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "33d748f5-e286-4516-a81e-3c8a38cdd3f8"
   }
 }
