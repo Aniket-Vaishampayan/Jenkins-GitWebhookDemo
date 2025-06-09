@@ -8,8 +8,8 @@ import { HttpClient } from "@angular/common/http";
     providedIn: 'root'
   })
   export class EmployeeService {
-    private baseUrl = 'http://192.168.1.19:7777/employee/testemp';
-    private dataTableUrl = 'http://192.168.1.19:7777/employee/data-table-metadata/employee';
+    private baseUrl = 'http://192.168.1.38:8445/employees';
+    private dataTableUrl = 'http://192.168.1.38:8445/employees/data-table-metadata/employee';
    //private dataTableUrl = 'http://192.168.1.19:7777/employee/testemp/list';
   
     constructor(private http: HttpClient) {}
