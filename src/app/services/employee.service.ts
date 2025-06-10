@@ -3,13 +3,15 @@ import { Employee } from "../model/employee.model";
 import { Observable } from "rxjs";
 import { ColumnMetadata } from "../model/columnmetadata.model";
 import { HttpClient } from "@angular/common/http";
+import { environment } from "src/environments/environment";
 
 @Injectable({
     providedIn: 'root'
   })
   export class EmployeeService {
-    private baseUrl = 'http://192.168.1.38:8445/employees';
-    private dataTableUrl = 'http://192.168.1.38:8445/employees/data-table-metadata/employee';
+  private baseUrl = environment.baseUrl;
+  private dataTableUrl = environment.dataTableUrl;
+
    //private dataTableUrl = 'http://192.168.1.19:7777/employee/testemp/list';
   
     constructor(private http: HttpClient) {}
