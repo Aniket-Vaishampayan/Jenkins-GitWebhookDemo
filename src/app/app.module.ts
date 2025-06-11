@@ -9,13 +9,15 @@ import { EmployeeComponent } from './components/forms/employee/employee.componen
 import { EmployeeTableComponent } from './components/forms/employee-table/employee-table.component';
 import { EmployeeService } from './services/employee.service';
 import { TestComponent } from './components/forms/test/test.component';
+import { Test2Component } from './components/forms/test2/test2.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     EmployeeComponent,
     EmployeeTableComponent,
-    TestComponent
+    TestComponent,
+    Test2Component
   ],
   imports: [
     BrowserModule,
