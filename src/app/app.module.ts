@@ -9,7 +9,6 @@ import { EmployeeComponent } from './components/forms/employee/employee.componen
 import { EmployeeTableComponent } from './components/forms/employee-table/employee-table.component';
 import { EmployeeService } from './services/employee.service';
 import { Test3Component } from './components/forms/test3/test3.component';
-import { Test4Component } from './components/forms/test4/test4.component';
 import { Test5Component } from './components/forms/test5/test5.component';
 import { Test7Component } from './components/forms/test7/test7.component';
 
