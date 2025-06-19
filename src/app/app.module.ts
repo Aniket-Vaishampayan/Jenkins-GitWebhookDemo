@@ -11,6 +11,7 @@ import { EmployeeService } from './services/employee.service';
 import { Test3Component } from './components/forms/test3/test3.component';
 import { Test5Component } from './components/forms/test5/test5.component';
 import { Test7Component } from './components/forms/test7/test7.component';
+import { Test6Component } from './components/forms/test6/test6.component';
 
 @NgModule({
   declarations: [
@@ -18,9 +19,9 @@ import { Test7Component } from './components/forms/test7/test7.component';
     EmployeeComponent,
     EmployeeTableComponent,
     Test3Component,
-    Test4Component,
     Test5Component,
-    Test7Component
+    Test7Component,
+    Test6Component
   ],
   imports: [
     BrowserModule,
