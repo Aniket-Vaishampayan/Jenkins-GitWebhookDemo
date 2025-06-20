@@ -10,6 +10,7 @@ import { EmployeeTableComponent } from './components/forms/employee-table/employ
 import { EmployeeService } from './services/employee.service';
 import { Test5Component } from './components/forms/test5/test5.component';
 import { Test6Component } from './components/forms/test6/test6.component';
+import { Test8Component } from './components/forms/test8/test8.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { Test6Component } from './components/forms/test6/test6.component';
     EmployeeComponent,
     EmployeeTableComponent,
     Test5Component,
-    Test6Component
+    Test6Component,
+    Test8Component
   ],
   imports: [
     BrowserModule,
